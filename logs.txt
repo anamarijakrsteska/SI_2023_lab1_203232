@@ -1,0 +1,37 @@
+C:\Users\38978\SI_2023_lab1_203232>git log
+commit 2c3d8f44e7e7f1550676ceb5b91b17a77082dccc (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: anamarijakrsteska <ana.marija.krsteska@students.finki.ukim.mk>
+Date:   Fri Mar 24 19:30:10 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit 0a9beb90de841c0410031a355c8f853dd384df69
+Merge: 5318d9e d6b72b6
+Author: anamarijakrsteska <ana.marija.krsteska@students.finki.ukim.mk>
+Date:   Fri Mar 24 19:33:07 2023 +0100
+
+    Merge branch 'bug2'
+
+commit d6b72b6c16ff1c21611d79558c843698e501a41e (origin/bug2, bug2)
+Author: anamarijakrsteska <ana.marija.krsteska@students.finki.ukim.mk>
+Date:   Fri Mar 24 19:28:08 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+------------------------------------------------------------------------------------------------------
+
+C:\Users\38978\SI_2023_lab1_203232>git log --graph
+* commit 2c3d8f44e7e7f1550676ceb5b91b17a77082dccc (HEAD -> master, origin/master, origin/bug3, bug3)
+| Author: anamarijakrsteska <ana.marija.krsteska@students.finki.ukim.mk>
+| Date:   Fri Mar 24 19:30:10 2023 +0100
+|
+|     Fix method sumEvenNumbers
+|
+*   commit 0a9beb90de841c0410031a355c8f853dd384df69
+|\  Merge: 5318d9e d6b72b6
+| | Author: anamarijakrsteska <ana.marija.krsteska@students.finki.ukim.mk>
+| | Date:   Fri Mar 24 19:33:07 2023 +0100
+| |
+| |     Merge branch 'bug2'
+| |
+| * commit d6b72b6c16ff1c21611d79558c843698e501a41e (origin/bug2, bug2)
+| | Author: anamarijakrsteska <ana.marija.krsteska@students.finki.ukim.mk>
